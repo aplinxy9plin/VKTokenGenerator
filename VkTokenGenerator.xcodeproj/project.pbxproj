@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A97E67081EA8B2990085E431 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97E67071EA8B2990085E431 /* AppDelegate.swift */; };
+		A97E670A1EA8B2990085E431 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97E67091EA8B2990085E431 /* ViewController.swift */; };
+		A97E670C1EA8B2990085E431 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A97E670B1EA8B2990085E431 /* Assets.xcassets */; };
+		A97E670F1EA8B2990085E431 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A97E670D1EA8B2990085E431 /* Main.storyboard */; };
+		A97E671A1EA8B2990085E431 /* VkTokenGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97E67191EA8B2990085E431 /* VkTokenGeneratorTests.swift */; };
+		A97E67251EA8B2990085E431 /* VkTokenGeneratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97E67241EA8B2990085E431 /* VkTokenGeneratorUITests.swift */; };
+		A97E67371EA901440085E431 /* WebAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97E67361EA901440085E431 /* WebAuthViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A97E67161EA8B2990085E431 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A97E66FC1EA8B2990085E431 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A97E67031EA8B2990085E431;
+			remoteInfo = VkTokenGenerator;
+		};
+		A97E67211EA8B2990085E431 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A97E66FC1EA8B2990085E431 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A97E67031EA8B2990085E431;
+			remoteInfo = VkTokenGenerator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A97E67041EA8B2990085E431 /* VkTokenGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VkTokenGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A97E67071EA8B2990085E431 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A97E67091EA8B2990085E431 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A97E670B1EA8B2990085E431 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A97E670E1EA8B2990085E431 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A97E67101EA8B2990085E431 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A97E67151EA8B2990085E431 /* VkTokenGeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VkTokenGeneratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A97E67191EA8B2990085E431 /* VkTokenGeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VkTokenGeneratorTests.swift; sourceTree = "<group>"; };
+		A97E671B1EA8B2990085E431 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A97E67201EA8B2990085E431 /* VkTokenGeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VkTokenGeneratorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A97E67241EA8B2990085E431 /* VkTokenGeneratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VkTokenGeneratorUITests.swift; sourceTree = "<group>"; };
+		A97E67261EA8B2990085E431 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A97E67361EA901440085E431 /* WebAuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebAuthViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A97E67011EA8B2990085E431 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A97E67121EA8B2990085E431 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A97E671D1EA8B2990085E431 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A97E66FB1EA8B2990085E431 = {
+			isa = PBXGroup;
+			children = (
+				A97E67061EA8B2990085E431 /* VkTokenGenerator */,
+				A97E67181EA8B2990085E431 /* VkTokenGeneratorTests */,
+				A97E67231EA8B2990085E431 /* VkTokenGeneratorUITests */,
+				A97E67051EA8B2990085E431 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A97E67051EA8B2990085E431 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A97E67041EA8B2990085E431 /* VkTokenGenerator.app */,
+				A97E67151EA8B2990085E431 /* VkTokenGeneratorTests.xctest */,
+				A97E67201EA8B2990085E431 /* VkTokenGeneratorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A97E67061EA8B2990085E431 /* VkTokenGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				A97E67071EA8B2990085E431 /* AppDelegate.swift */,
+				A97E67091EA8B2990085E431 /* ViewController.swift */,
+				A97E670B1EA8B2990085E431 /* Assets.xcassets */,
+				A97E670D1EA8B2990085E431 /* Main.storyboard */,
+				A97E67101EA8B2990085E431 /* Info.plist */,
+				A97E67361EA901440085E431 /* WebAuthViewController.swift */,
+			);
+			path = VkTokenGenerator;
+			sourceTree = "<group>";
+		};
+		A97E67181EA8B2990085E431 /* VkTokenGeneratorTests */ = {
+			isa = PBXGroup;
+			children = (
+				A97E67191EA8B2990085E431 /* VkTokenGeneratorTests.swift */,
+				A97E671B1EA8B2990085E431 /* Info.plist */,
+			);
+			path = VkTokenGeneratorTests;
+			sourceTree = "<group>";
+		};
+		A97E67231EA8B2990085E431 /* VkTokenGeneratorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A97E67241EA8B2990085E431 /* VkTokenGeneratorUITests.swift */,
+				A97E67261EA8B2990085E431 /* Info.plist */,
+			);
+			path = VkTokenGeneratorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A97E67031EA8B2990085E431 /* VkTokenGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A97E67291EA8B2990085E431 /* Build configuration list for PBXNativeTarget "VkTokenGenerator" */;
+			buildPhases = (
+				A97E67001EA8B2990085E431 /* Sources */,
+				A97E67011EA8B2990085E431 /* Frameworks */,
+				A97E67021EA8B2990085E431 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VkTokenGenerator;
+			productName = VkTokenGenerator;
+			productReference = A97E67041EA8B2990085E431 /* VkTokenGenerator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A97E67141EA8B2990085E431 /* VkTokenGeneratorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A97E672C1EA8B2990085E431 /* Build configuration list for PBXNativeTarget "VkTokenGeneratorTests" */;
+			buildPhases = (
+				A97E67111EA8B2990085E431 /* Sources */,
+				A97E67121EA8B2990085E431 /* Frameworks */,
+				A97E67131EA8B2990085E431 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A97E67171EA8B2990085E431 /* PBXTargetDependency */,
+			);
+			name = VkTokenGeneratorTests;
+			productName = VkTokenGeneratorTests;
+			productReference = A97E67151EA8B2990085E431 /* VkTokenGeneratorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A97E671F1EA8B2990085E431 /* VkTokenGeneratorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A97E672F1EA8B2990085E431 /* Build configuration list for PBXNativeTarget "VkTokenGeneratorUITests" */;
+			buildPhases = (
+				A97E671C1EA8B2990085E431 /* Sources */,
+				A97E671D1EA8B2990085E431 /* Frameworks */,
+				A97E671E1EA8B2990085E431 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A97E67221EA8B2990085E431 /* PBXTargetDependency */,
+			);
+			name = VkTokenGeneratorUITests;
+			productName = VkTokenGeneratorUITests;
+			productReference = A97E67201EA8B2990085E431 /* VkTokenGeneratorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A97E66FC1EA8B2990085E431 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Mike Mozhaev";
+				TargetAttributes = {
+					A97E67031EA8B2990085E431 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					A97E67141EA8B2990085E431 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A97E67031EA8B2990085E431;
+					};
+					A97E671F1EA8B2990085E431 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A97E67031EA8B2990085E431;
+					};
+				};
+			};
+			buildConfigurationList = A97E66FF1EA8B2990085E431 /* Build configuration list for PBXProject "VkTokenGenerator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A97E66FB1EA8B2990085E431;
+			productRefGroup = A97E67051EA8B2990085E431 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A97E67031EA8B2990085E431 /* VkTokenGenerator */,
+				A97E67141EA8B2990085E431 /* VkTokenGeneratorTests */,
+				A97E671F1EA8B2990085E431 /* VkTokenGeneratorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A97E67021EA8B2990085E431 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A97E670C1EA8B2990085E431 /* Assets.xcassets in Resources */,
+				A97E670F1EA8B2990085E431 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A97E67131EA8B2990085E431 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A97E671E1EA8B2990085E431 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A97E67001EA8B2990085E431 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A97E670A1EA8B2990085E431 /* ViewController.swift in Sources */,
+				A97E67081EA8B2990085E431 /* AppDelegate.swift in Sources */,
+				A97E67371EA901440085E431 /* WebAuthViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A97E67111EA8B2990085E431 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A97E671A1EA8B2990085E431 /* VkTokenGeneratorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A97E671C1EA8B2990085E431 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A97E67251EA8B2990085E431 /* VkTokenGeneratorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A97E67171EA8B2990085E431 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A97E67031EA8B2990085E431 /* VkTokenGenerator */;
+			targetProxy = A97E67161EA8B2990085E431 /* PBXContainerItemProxy */;
+		};
+		A97E67221EA8B2990085E431 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A97E67031EA8B2990085E431 /* VkTokenGenerator */;
+			targetProxy = A97E67211EA8B2990085E431 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A97E670D1EA8B2990085E431 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A97E670E1EA8B2990085E431 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A97E67271EA8B2990085E431 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A97E67281EA8B2990085E431 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		A97E672A1EA8B2990085E431 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = VkTokenGenerator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mozhaev.VkTokenGenerator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A97E672B1EA8B2990085E431 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = VkTokenGenerator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mozhaev.VkTokenGenerator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A97E672D1EA8B2990085E431 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = VkTokenGeneratorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mozhaev.VkTokenGeneratorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VkTokenGenerator.app/Contents/MacOS/VkTokenGenerator";
+			};
+			name = Debug;
+		};
+		A97E672E1EA8B2990085E431 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = VkTokenGeneratorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mozhaev.VkTokenGeneratorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VkTokenGenerator.app/Contents/MacOS/VkTokenGenerator";
+			};
+			name = Release;
+		};
+		A97E67301EA8B2990085E431 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = VkTokenGeneratorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mozhaev.VkTokenGeneratorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = VkTokenGenerator;
+			};
+			name = Debug;
+		};
+		A97E67311EA8B2990085E431 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = VkTokenGeneratorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mozhaev.VkTokenGeneratorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = VkTokenGenerator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A97E66FF1EA8B2990085E431 /* Build configuration list for PBXProject "VkTokenGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A97E67271EA8B2990085E431 /* Debug */,
+				A97E67281EA8B2990085E431 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A97E67291EA8B2990085E431 /* Build configuration list for PBXNativeTarget "VkTokenGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A97E672A1EA8B2990085E431 /* Debug */,
+				A97E672B1EA8B2990085E431 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A97E672C1EA8B2990085E431 /* Build configuration list for PBXNativeTarget "VkTokenGeneratorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A97E672D1EA8B2990085E431 /* Debug */,
+				A97E672E1EA8B2990085E431 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A97E672F1EA8B2990085E431 /* Build configuration list for PBXNativeTarget "VkTokenGeneratorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A97E67301EA8B2990085E431 /* Debug */,
+				A97E67311EA8B2990085E431 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A97E66FC1EA8B2990085E431 /* Project object */;
+}

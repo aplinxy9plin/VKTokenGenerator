@@ -11,7 +11,7 @@ import WebKit
 
 class ViewController: NSViewController, NSTextFieldDelegate, AccessTokenDelegate {
     
-    var checkboxesNames: [String] = ["notify", "friends", "photos", "audio", "video", "pages", "status", "notes", "messages", "wall", "ads", "offline", "docs", "groups", "stats", "email", "market", "nohttps", "Applicaion link", "notifications"]
+    var checkboxesNames: [String] = ["notify", "friends", "photos", "audio", "video", "pages", "status", "notes", "messages", "wall", "ads", "offline", "docs", "groups", "stats", "email", "market", "nohttps", "link", "notifications"]
     
     var scope = Set<String>()
     
@@ -54,7 +54,10 @@ class ViewController: NSViewController, NSTextFieldDelegate, AccessTokenDelegate
         self.oauthUrlLabel.stringValue = oauthUrl
         self.copyToken.isHidden = false
         self.copyOAuthUrl.isHidden = false
-
+    }
+    
+    func didError(controller: WebAuthViewController, error: String) {
+        print(error)
     }
     
     override func controlTextDidChange(_ obj: Notification) {
@@ -69,8 +72,9 @@ class ViewController: NSViewController, NSTextFieldDelegate, AccessTokenDelegate
         let joinedScope = self.scope.joined(separator: ",")
         oauthUrl = "https://oauth.vk.com/authorize?client_id=\(self.applicationId.stringValue)&display=mobile&redirect_uri=https://oauth.vk.com/blank.html&scope=\(joinedScope)&response_type=token&v=5.63"
         
-        webAuthViewController.oauthUrl = oauthUrl
-        self.presentViewControllerAsModalWindow(webAuthViewController)
+        self.webAuthViewController.oauthUrl = oauthUrl
+        self.webAuthViewController.loadView()
+        self.presentViewControllerAsModalWindow(self.webAuthViewController)
     }
     
     @IBAction func copyTokenPress(_ sender: NSButton) {

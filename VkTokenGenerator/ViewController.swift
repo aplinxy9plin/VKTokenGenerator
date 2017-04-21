@@ -92,7 +92,7 @@ class ViewController: NSViewController, NSTextFieldDelegate, AccessTokenDelegate
         var column = 0
         for name in self.checkboxesNames {
             let b = NSButton(checkboxWithTitle: name, target: self, action: #selector(click))
-            b.frame = NSRect(x: 100*column+30, y: row*25+20, width: 200, height: 20)
+            b.frame = NSRect(x: 100*column+40, y: row*25+20, width: 200, height: 20)
             self.view.addSubview(b)
             row += 1
             if row == 5 {
